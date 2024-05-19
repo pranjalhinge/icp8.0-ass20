@@ -1,0 +1,44 @@
+.container{
+           
+    display: flex;
+    min-height: 100vh;
+}
+.sidebar{
+    width: 250px;
+    color: white;
+    background-color: black;
+}
+.content{
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: black;
+   
+    
+   
+    
+}
+h1{
+    align-content: center;
+    margin-left: 500px;
+    margin-top: 200px;
+}
+.menu-item{
+    background-color: white;
+    color: black;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    text-decoration: none;
+    
+}
+.menu-text{
+    margin-left: 5px;
+    
+}
+.menu-item:hover{
+    background-color: lightgray;
+}
