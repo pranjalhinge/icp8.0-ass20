@@ -10,7 +10,7 @@
 }
 .content{
     width: 100%;
-    background-image: url(https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&w=600);
+    
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -21,10 +21,11 @@
     
 }
 h1{
-    align-content: center;
-    margin-left: 500px;
-    margin-top: 200px;
+    margin-left: 10px;
+    font-size: 45px;
 }
+
+
 .menu-item{
     background-color: white;
     color: black;
@@ -41,4 +42,52 @@ h1{
 }
 .menu-item:hover{
     background-color: lightgray;
+}
+/* small divices */
+@media screen and (min-width: 150px) and (max-width: 600px) {
+        h1{
+            font-size: 25px;
+        }
+        .sidebar{
+            width: 210px;
+        } 
+        .content{
+            width: 100%;
+            height: 100%;
+
+        }   
+    
+
+}
+/* normal device */
+@media screen and (min-width: 601px) and (max-width:768px) {
+   h1{
+    font-size: 30;
+   }
+   .sidebar{
+    width: 230px;
+   }
+
+}
+/* tablets devices */
+@media screen and (min-width: 769px) and (max-width:992px) {
+    h1{
+        font-size: 40px;
+    }
+    .sidebar
+    {
+        width: 240px;
+    }
+    
+    
+}
+/* large devices */
+@media screen and (min-width: 993px) and (max-width:1200px) {
+   h1{
+    font-size: 45px;
+   }
+   .sidebar{
+    width: 250px;
+   }
+    
 }
